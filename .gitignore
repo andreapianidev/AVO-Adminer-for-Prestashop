@@ -1,0 +1,33 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# IDE
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+
+# Cache
+*.cache
+cache/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# Build
+node_modules/
+vendor/composer/
+
+# Environment
+.env
+.env.local

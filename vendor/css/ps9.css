@@ -1,0 +1,14 @@
+#content.bootstrap #medConfForm .nav>li>a {
+	text-decoration: none;
+}
+
+.bootstrap ps-tabs .nav>li>a:focus,
+.bootstrap ps-tabs .nav>li>a:hover {
+
+	background-color: #e8e8e8;
+}
+
+.bootstrap ps-tabs .nav>li.active>a:focus,
+.bootstrap ps-tabs .nav>li.active>a:hover {
+	color: #333;
+}
