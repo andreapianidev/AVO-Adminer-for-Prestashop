@@ -1,13 +1,42 @@
 {*
 *   @author Andrea Piani - www.andreapiani.com
 *   @copyright  Andrea Piani
-*   @license   https://opensource.org/licenses/AFL-3.0 Academic Free License version 3.0
+*   @license   BSD-3-Clause
 *}
 
-{if $iso_code == 'fr'}
-<p class="pull-right"><a href="https://www.touchweb.fr/cybersecurite-prestashop/charte-cybersecurite-responsable" target="_blank"><img src="{$img_path|escape:'html':'UTF-8'}security-{$iso_code|escape:'html':'UTF-8'}.webp" width="150" height="150" /></a></p>
-<h2>🚨 Signalement d'une vulnérabilité</h2><p>La sécurité de nos modules et de nos clients est primordiale. C'est pourquoi <span class="important">nous encourageons les chercheurs en sécurité à mener des analyses sur nos modules</span> et à nous signaler toute vulnérabilité identifiée, dans le respect des bonnes pratiques de divulgation responsable.<br><br>Nous nous engageons à identifier et corriger toute vulnérabilité, et à communiquer de manière transparente avec les parties concernées tout au long du processus.<br><br>Si vous pensez avoir découvert une vulnérabilité dans l'un de nos modules, vous pouvez nous la signaler de manière responsable <a href="https://www.mediacom87.fr/contact/">via notre site</a>.<br><br>Nous vous invitons à nous fournir le plus de détails possible (description, impact, version concernée, étapes de reproduction).<br><br>Nous vous informons que les découvertes non reproductibles ou n'étant pas directement liées à nos modules sont ignorées.</p><h2>📜 Notre politique de gestion des vulnérabilités</h2><p>Conformément à la <a href="https://www.touchweb.fr/cybersecurite-prestashop/charte-cybersecurite-responsable" target="_blank" title="Comment améliorer la sécurité PrestaShop ? " rel="noopener">Charte TouchWeb pour une cybersécurité responsable</a>, notre équipe applique les principes suivants :</p><ul><li>Accusé de réception de tout signalement pertinent sous 7 jours maximum. (CVSS ≥ 7.5)</li><li>Analyse d'impact et planification d'un correctif sous 30 jours maximum.</li><li>Publication d'un avis de sécurité avec CVE si le score CVSS est ≥ 7.5.&nbsp;</li><li>Aucune correction ne sera publiée de manière silencieuse.</li></ul><p>En parallèle, nous prenons les engagements suivants pour garantir une gestion responsable et éthique des vulnérabilités :</p><ul><li>Ne pas poursuivre les chercheurs agissant de bonne foi, notamment dans le cadre du programme YesWeHack géré par TouchWeb SAS.</li><li>Garantir qu'aucun accord de confidentialité, y compris en marque blanche, ne puisse entraver la publication transparente d'un avis de sécurité avec identifiant CVE, dans le respect de l'état de l'Art.</li></ul><p>Nous avons bien conscience que cette transparence est essentielle pour permettre aux tiers concernés (agences, marchands, etc.) de satisfaire à leurs obligations de conformité, notamment dans le cadre du standard PCI-DSS ou de l'une de ses versions allégées, comme la SAQ-A.</p><h2>🛡️ Autorisation de publication</h2><p>Nous autorisons expressément la société TouchWeb SAS à publier les informations relatives aux vulnérabilités corrigées de nos modules sur <a href="https://www.touchweb.fr" target="_blank" rel="noopener">son site officiel</a>, conformément aux engagements de la Charte de cybersécurité responsable.</p><p>Cette publication comprend :</p><ul><li>Un identifiant CVE associé à la vulnérabilité.</li><li>Une note de sécurité décrivant clairement le problème et sa résolution.</li><li>Les versions concernées et la version corrigée.</li><li>Un correctif facile à déployer lorsque la mise à jour n'est pas possible.</li><li>Toute information utile permettant aux utilisateurs et agences de se protéger rapidement.</li></ul><h2>🔍 Publication</h2><p>Informations disponibles <a href="https://mediacom87.fr/politique-de-securite/" target="_blank">en ligne</a></p>
-{else}
-<p class="pull-right"><a href="https://www.touchweb.fr/cybersecurity-prestashop/responsible-cybersecurity-charter" target="_blank"><img src="{$img_path|escape:'html':'UTF-8'}security-{$iso_code|escape:'html':'UTF-8'}.webp" width="150" height="150" /></a></p>
-<h2>🚨 Reporting a Vulnerability</h2><p>The security of our modules and our clients is paramount. That's why <span class="important">we encourage security researchers to analyze our modules</span> and report any identified vulnerabilities to us, in line with responsible disclosure best practices.</p><p>We are committed to identifying and fixing any vulnerability, and to communicating transparently with all relevant parties throughout the process.</p><p>If you believe you have discovered a vulnerability in one of our modules, you may report it responsibly <a href="https://www.mediacom87.com/contact/">on our site</a>.</p><p>Please provide as much detail as possible (description, impact, affected version, reproduction steps).</p><p>We inform you that non-reproducible reports or those unrelated to our modules will be ignored.</p><h2>📜 Our Vulnerability Management Policy</h2><p>In accordance with the <a href="https://www.touchweb.fr/cybersecurity-prestashop/responsible-cybersecurity-charter" target="_blank" title="TouchWeb Charter for Responsible Cybersecurity" rel="noopener">TouchWeb Charter for Responsible Cybersecurity</a>, our team applies the following principles:</p><ul><li>Acknowledgement of any relevant report within 7 days maximum. (CVSS ≥ <em>7.5</em>)</li><li>Impact analysis and fix planning within 30 days maximum.</li><li>Publication of a security advisory with a CVE ID if the CVSS score is ≥ 7.5.</li><li>No fix will ever be released silently.</li></ul><p>In parallel, we make the following commitments to ensure responsible and ethical vulnerability handling:</p><ul><li>We will not take legal action against researchers acting in good faith, particularly within the scope of the YesWeHack program managed by TouchWeb SAS.</li><li>We guarantee that <strong>no confidentiality agreement</strong>, including in white-label contexts, will prevent the <strong>transparent publication of a security advisory with a CVE ID</strong>, in line with industry best practices.</li></ul><p>We are fully aware that this transparency is essential to enable the relevant third parties (agencies, merchants, etc.) to meet their compliance obligations, particularly within the framework of the PCI-DSS standard or one of its simplified versions, such as SAQ-A.</p><h2>🛡️ Publication Authorization</h2><p>We expressly authorize the company TouchWeb SAS to publish information related to patched vulnerabilities in our modules on its <a href="https://www.touchweb.fr" target="_blank" rel="noopener">official website</a>, in accordance with the commitments of the Responsible Cybersecurity Charter.</p><p>This publication may include:</p><ul><li>A CVE identifier associated with the vulnerability.</li><li>A security notice clearly describing the issue and its resolution.</li><li>The affected versions and the version containing the fix.</li><li>An easy-to-apply patch where updates are difficult to implement.</li><li>Any useful information to help users and agencies protect themselves quickly.</li></ul><p></p><h2>🔍 Disclosure</h2><p>Information available <a href="https://www.mediacom87.com/security-policy/" target="_blank">online</a></p>
-{/if}
+<ps-panel header="{l s='Security Policy' mod='medadminer'}" icon="icon-shield">
+
+<h2>🚨 {l s='Reporting a Vulnerability' mod='medadminer'}</h2>
+
+<p>{l s='The security of this module and its users is paramount. If you believe you have discovered a vulnerability, please report it responsibly.' mod='medadminer'}</p>
+
+<p>{l s='You can contact us at:' mod='medadminer'}</p>
+
+<ul>
+    <li>📧 <strong>Email:</strong> <a href="mailto:andreapiani.dev@gmail.com">andreapiani.dev@gmail.com</a></li>
+    <li>🌐 <strong>Website:</strong> <a href="https://www.andreapiani.com" target="_blank">www.andreapiani.com</a></li>
+    <li>📱 <strong>{l s='Phone' mod='medadminer'}:</strong> +39 351 624 8936</li>
+</ul>
+
+<p>{l s='Please provide as much detail as possible (description, impact, affected version, reproduction steps).' mod='medadminer'}</p>
+
+<h2>📜 {l s='Our Commitment' mod='medadminer'}</h2>
+
+<ul>
+    <li>{l s='Acknowledgement of any relevant report within 7 days' mod='medadminer'}</li>
+    <li>{l s='Impact analysis and fix planning within 30 days' mod='medadminer'}</li>
+    <li>{l s='Transparent communication throughout the process' mod='medadminer'}</li>
+</ul>
+
+<h2>🛡️ {l s='Best Practices' mod='medadminer'}</h2>
+
+<p>{l s='To ensure the security of your PrestaShop installation:' mod='medadminer'}</p>
+
+<ul>
+    <li>💾 {l s='Always backup your database before making changes' mod='medadminer'}</li>
+    <li>🔒 {l s='Restrict access to this module to trusted administrators only' mod='medadminer'}</li>
+    <li>🔄 {l s='Keep your PrestaShop and all modules up to date' mod='medadminer'}</li>
+    <li>🔐 {l s='Use strong passwords for your database and admin accounts' mod='medadminer'}</li>
+</ul>
+
+</ps-panel>
