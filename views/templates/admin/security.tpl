@@ -1,42 +1,53 @@
 {*
-*   @author Andrea Piani - www.andreapiani.com
-*   @copyright  Andrea Piani
-*   @license   BSD-3-Clause
+* Avo Adminer - Security Template
+* @author Andrea Piani - www.andreapiani.com
+* @copyright 2025 Andrea Piani
+* @license BSD-3-Clause
 *}
 
-<ps-panel header="{l s='Security Policy' mod='medadminer'}" icon="icon-shield">
+<ps-panel header="🛡️ {l s='Policy di Sicurezza' mod='medadminer'}" icon="icon-shield">
 
-<h2>🚨 {l s='Reporting a Vulnerability' mod='medadminer'}</h2>
+<h4 style="color: #e74c3c;">🚨 {l s='Segnalazione Vulnerabilità' mod='medadminer'}</h4>
 
-<p>{l s='The security of this module and its users is paramount. If you believe you have discovered a vulnerability, please report it responsibly.' mod='medadminer'}</p>
+<p style="font-size: 14px; line-height: 1.7;">
+    {l s='La sicurezza di questo modulo e dei suoi utenti è fondamentale. Se pensi di aver scoperto una vulnerabilità, segnalala in modo responsabile.' mod='medadminer'}
+</p>
 
-<p>{l s='You can contact us at:' mod='medadminer'}</p>
+<p><strong>{l s='Puoi contattarmi a:' mod='medadminer'}</strong></p>
 
-<ul>
+<ul style="line-height: 2;">
     <li>📧 <strong>Email:</strong> <a href="mailto:andreapiani.dev@gmail.com">andreapiani.dev@gmail.com</a></li>
-    <li>🌐 <strong>Website:</strong> <a href="https://www.andreapiani.com" target="_blank">www.andreapiani.com</a></li>
-    <li>📱 <strong>{l s='Phone' mod='medadminer'}:</strong> +39 351 624 8936</li>
+    <li>🌐 <strong>{l s='Sito Web' mod='medadminer'}:</strong> <a href="https://www.andreapiani.com" target="_blank">www.andreapiani.com</a></li>
+    <li>📱 <strong>{l s='Telefono' mod='medadminer'}:</strong> +39 351 624 8936</li>
 </ul>
 
-<p>{l s='Please provide as much detail as possible (description, impact, affected version, reproduction steps).' mod='medadminer'}</p>
+<p style="font-size: 14px;">
+    {l s='Per favore fornisci più dettagli possibili (descrizione, impatto, versione interessata, passaggi per riprodurre il problema).' mod='medadminer'}
+</p>
 
-<h2>📜 {l s='Our Commitment' mod='medadminer'}</h2>
+<h4 style="margin-top: 25px;">📜 {l s='Il Mio Impegno' mod='medadminer'}</h4>
 
-<ul>
-    <li>{l s='Acknowledgement of any relevant report within 7 days' mod='medadminer'}</li>
-    <li>{l s='Impact analysis and fix planning within 30 days' mod='medadminer'}</li>
-    <li>{l s='Transparent communication throughout the process' mod='medadminer'}</li>
+<ul style="line-height: 2;">
+    <li>✅ {l s='Conferma di ricezione di qualsiasi segnalazione rilevante entro 7 giorni' mod='medadminer'}</li>
+    <li>✅ {l s='Analisi dell\'impatto e pianificazione della correzione entro 30 giorni' mod='medadminer'}</li>
+    <li>✅ {l s='Comunicazione trasparente durante tutto il processo' mod='medadminer'}</li>
 </ul>
 
-<h2>🛡️ {l s='Best Practices' mod='medadminer'}</h2>
+</ps-panel>
 
-<p>{l s='To ensure the security of your PrestaShop installation:' mod='medadminer'}</p>
+<ps-panel header="🔐 {l s='Best Practice di Sicurezza' mod='medadminer'}" icon="icon-lock">
 
-<ul>
-    <li>💾 {l s='Always backup your database before making changes' mod='medadminer'}</li>
-    <li>🔒 {l s='Restrict access to this module to trusted administrators only' mod='medadminer'}</li>
-    <li>🔄 {l s='Keep your PrestaShop and all modules up to date' mod='medadminer'}</li>
-    <li>🔐 {l s='Use strong passwords for your database and admin accounts' mod='medadminer'}</li>
+<p style="font-size: 14px;">{l s='Per garantire la sicurezza della tua installazione PrestaShop:' mod='medadminer'}</p>
+
+<ul style="line-height: 2; font-size: 14px;">
+    <li>💾 <strong>{l s='Backup regolari' mod='medadminer'}</strong> - {l s='Fai sempre un backup del database prima di apportare modifiche' mod='medadminer'}</li>
+    <li>🔒 <strong>{l s='Accesso limitato' mod='medadminer'}</strong> - {l s='Limita l\'accesso a questo modulo solo agli amministratori fidati' mod='medadminer'}</li>
+    <li>🔄 <strong>{l s='Aggiornamenti' mod='medadminer'}</strong> - {l s='Mantieni PrestaShop e tutti i moduli sempre aggiornati' mod='medadminer'}</li>
+    <li>🔑 <strong>{l s='Password forti' mod='medadminer'}</strong> - {l s='Usa password complesse per il database e gli account admin' mod='medadminer'}</li>
 </ul>
+
+<ps-alert-error style="margin-top: 20px;">
+    <strong>⚠️ {l s='Attenzione' mod='medadminer'}:</strong> {l s='Adminer permette di modificare direttamente il database. Usalo con cautela e solo se sai cosa stai facendo!' mod='medadminer'}
+</ps-alert-error>
 
 </ps-panel>

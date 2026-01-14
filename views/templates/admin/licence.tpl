@@ -1,37 +1,63 @@
 {*
+* Avo Adminer - License Template
 * @author Andrea Piani - www.andreapiani.com
-* @copyright  Andrea Piani
-* @license   BSD-3-Clause
+* @copyright 2025 Andrea Piani
+* @license BSD-3-Clause
 *}
 
-<ps-panel header="{l s='License' mod='medadminer'}" icon="icon-legal">
+<ps-panel header="📜 {l s='Licenza' mod='medadminer'}" icon="icon-legal">
 
-<h3>BSD 3-Clause License</h3>
+<h3 style="color: #568203;">BSD 3-Clause License</h3>
 
-<p>Copyright (c) 2025, Andrea Piani</p>
+<p><strong>Copyright (c) 2025, Andrea Piani</strong></p>
 
-<p>Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:</p>
+<p>{l s='La ridistribuzione e l\'uso in formato sorgente e binario, con o senza modifiche, sono consentiti a condizione che siano soddisfatte le seguenti condizioni:' mod='medadminer'}</p>
 
-<ol>
-    <li>Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.</li>
-    <li>Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation and/or other materials provided with the distribution.</li>
-    <li>Neither the name of the copyright holder nor the names of its contributors may be used to endorse or promote products derived from this software without specific prior written permission.</li>
+<ol style="line-height: 2;">
+    <li>{l s='Le ridistribuzioni del codice sorgente devono mantenere l\'avviso di copyright sopra riportato, questo elenco di condizioni e la seguente dichiarazione di esclusione di responsabilità.' mod='medadminer'}</li>
+    <li>{l s='Le ridistribuzioni in formato binario devono riprodurre l\'avviso di copyright sopra riportato, questo elenco di condizioni e la seguente dichiarazione di esclusione di responsabilità nella documentazione e/o in altri materiali forniti con la distribuzione.' mod='medadminer'}</li>
+    <li>{l s='Né il nome del titolare del copyright né i nomi dei suoi contributori possono essere utilizzati per approvare o promuovere prodotti derivati da questo software senza previa autorizzazione scritta specifica.' mod='medadminer'}</li>
 </ol>
 
-<p><strong>THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.</strong></p>
+<ps-alert-hint style="margin-top: 20px;">
+    <p style="font-size: 12px; margin: 0;">
+        <strong>DISCLAIMER:</strong> {l s='QUESTO SOFTWARE È FORNITO DAI TITOLARI DEL COPYRIGHT E DAI CONTRIBUTORI "COSÌ COM\'È" E QUALSIASI GARANZIA ESPRESSA O IMPLICITA, INCLUSE, MA NON LIMITATE A, LE GARANZIE IMPLICITE DI COMMERCIABILITÀ E IDONEITÀ PER UN PARTICOLARE SCOPO SONO ESCLUSE.' mod='medadminer'}
+    </p>
+</ps-alert-hint>
 
 </ps-panel>
 
-<ps-panel header="{l s='Open Source' mod='medadminer'}" icon="icon-github">
+<ps-panel header="🐙 Open Source" icon="icon-github">
 
-<div style="text-align: center; padding: 20px;">
-    <h4>{l s='This module is open source!' mod='medadminer'}</h4>
-    <p>{l s='You can contribute, report issues, or fork it on GitHub.' mod='medadminer'}</p>
-    <p style="margin-top: 15px;">
+<div style="text-align: center; padding: 25px;">
+    <h4 style="color: #568203; margin-top: 0;">🎉 {l s='Questo modulo è open source!' mod='medadminer'}</h4>
+    <p style="font-size: 15px; max-width: 500px; margin: 15px auto;">
+        {l s='Puoi contribuire, segnalare problemi o forkare il progetto su GitHub.' mod='medadminer'}
+    </p>
+    <p style="margin-top: 20px;">
         <a href="https://github.com/andreapianidev/AVO-Adminer-for-Prestashop" target="_blank" class="btn btn-default btn-lg">
-            <i class="icon-github"></i> View on GitHub
+            <i class="icon-github"></i> {l s='Visualizza su GitHub' mod='medadminer'}
         </a>
     </p>
+</div>
+
+</ps-panel>
+
+<ps-panel header="⭐ {l s='Supporta il Progetto' mod='medadminer'}" icon="icon-star">
+
+<div style="text-align: center; padding: 25px;">
+    <p style="font-size: 15px; max-width: 500px; margin: 0 auto 20px auto;">
+        {l s='Se trovi utile questo modulo, considera di lasciare una stella su GitHub e di condividerlo con altri sviluppatori PrestaShop!' mod='medadminer'}
+    </p>
+
+    <div style="display: flex; justify-content: center; flex-wrap: wrap; gap: 15px;">
+        <a href="https://github.com/andreapianidev/AVO-Adminer-for-Prestashop" target="_blank" class="btn btn-default">
+            ⭐ {l s='Lascia una Stella' mod='medadminer'}
+        </a>
+        <a href="https://www.andreapiani.com" target="_blank" class="btn btn-success">
+            🌐 www.andreapiani.com
+        </a>
+    </div>
 </div>
 
 </ps-panel>
